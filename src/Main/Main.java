@@ -23,9 +23,9 @@ public class Main {
         banco.setLista_contas(control.addConta(lista, conta1));
         banco.setLista_contas(control.addConta(lista, conta2));
         banco.setLista_contas(control.addConta(lista, conta3));
-        banco.imprimeListaContas();
-        //banco.setLista_contas(control.removeConta(lista, "0097-2", "77774-4"));
         //banco.imprimeListaContas();
+        banco.setLista_contas(control.removeConta(lista, "0097-2", "77774-4"));
+        banco.imprimeListaContas();
         //banco.imprimeUmaConta(control.addSaldoConta(lista, "0097-2", "77774-4", 2000D));
         //banco.imprimeUmaConta(control.removeSaldoConta(lista, "0097-2", "77774-4", 4000D));
         
